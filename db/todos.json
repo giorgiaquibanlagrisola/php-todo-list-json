@@ -1,0 +1,18 @@
+[
+    {
+        "task":"Pulire casa",
+        "status":false
+    },
+    {
+        "task":"Fare la lavatrice",
+        "status":false
+    },
+    {
+        "task":"Stendere i panni",
+        "status":false
+    },
+    {
+        "task":"Cucinare",
+        "status":false
+    }
+]
