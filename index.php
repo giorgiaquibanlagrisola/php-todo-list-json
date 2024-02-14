@@ -10,22 +10,15 @@
 </head>
 <body>
     <header>
-        HEADER 
+        <h1>
+            PHP ToDo List JSON
+        </h1>
     </header>
 
     <main id="app">
         <ul>
-            <li>
-                Pulire casa 
-            </li>
-            <li>
-                Fare la lavatrice
-            </li>
-            <li>
-                Stendere i panni 
-            </li>
-            <li>
-                Cucinare
+            <li v-for="todo in todos">
+                {{ todo.task }}
             </li>
         </ul>
     </main>
